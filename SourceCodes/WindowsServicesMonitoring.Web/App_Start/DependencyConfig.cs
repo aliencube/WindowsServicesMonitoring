@@ -6,10 +6,7 @@ namespace WindowsServicesMonitoring.Web
     {
         public static void Register(IAppBuilder app)
         {
-            app.Use(async (context, next) =>
-                          {
-                              await next.Invoke();
-                          });
+            app.Use((context, next) => next.Invoke());
         }
     }
 }
