@@ -24,7 +24,7 @@ namespace Aliencube.WindowsServicesMonitoring.Web
                               Custom404PagePath = GetCustom404PagePath(),
                               Custom404PageDir = GetCustom404PageDir()
                           };
-            app.Use<Page404Middleware>(options);
+            app.UsePage404(options);
         }
 
         private static bool UseCustom404Page()
