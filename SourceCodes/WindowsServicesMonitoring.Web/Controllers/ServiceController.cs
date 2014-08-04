@@ -2,7 +2,7 @@
 using System.Net.Http;
 using System.Web.Http;
 
-namespace WindowsServicesMonitoring.Web.Controllers
+namespace Aliencube.WindowsServicesMonitoring.Web.Controllers
 {
     [Route("services")]
     public class ServiceController : BaseApiController

@@ -1,6 +1,6 @@
 ﻿using Owin;
 
-namespace WindowsServicesMonitoring.Web
+namespace Aliencube.WindowsServicesMonitoring.Web
 {
     public class Startup
     {

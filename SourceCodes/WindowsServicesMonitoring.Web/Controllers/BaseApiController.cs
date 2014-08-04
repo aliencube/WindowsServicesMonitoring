@@ -1,6 +1,6 @@
 ﻿using System.Web.Http;
 
-namespace WindowsServicesMonitoring.Web.Controllers
+namespace Aliencube.WindowsServicesMonitoring.Web.Controllers
 {
     public abstract class BaseApiController : ApiController
     {

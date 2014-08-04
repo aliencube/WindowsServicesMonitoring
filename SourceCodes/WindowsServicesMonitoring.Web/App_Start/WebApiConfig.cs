@@ -1,8 +1,8 @@
-﻿using Newtonsoft.Json.Serialization;
+﻿using System.Web.Http;
+using Newtonsoft.Json.Serialization;
 using Owin;
-using System.Web.Http;
 
-namespace WindowsServicesMonitoring.Web
+namespace Aliencube.WindowsServicesMonitoring.Web
 {
     public static class WebApiConfig
     {

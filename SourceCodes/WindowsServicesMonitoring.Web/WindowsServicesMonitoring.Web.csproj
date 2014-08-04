@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WindowsServicesMonitoring.Web</RootNamespace>
-    <AssemblyName>WindowsServicesMonitoring.Web</AssemblyName>
+    <RootNamespace>Aliencube.WindowsServicesMonitoring.Web</RootNamespace>
+    <AssemblyName>Aliencube.WindowsServicesMonitoring.Web</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -79,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\main.css" />
+    <Content Include="error\404.html" />
     <Content Include="images\monitoring.png" />
     <Content Include="index.html" />
     <Content Include="js\main.js" />
@@ -98,6 +99,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\Documents\Properties\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="App_Start\DependencyConfig.cs" />
     <Compile Include="App_Start\ErrorConfig.cs" />
     <Compile Include="App_Start\Page404Config.cs" />

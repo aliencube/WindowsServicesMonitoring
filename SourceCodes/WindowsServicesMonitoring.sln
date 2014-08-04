@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsServicesMonitoring.Web", "WindowsServicesMonitoring.Web\WindowsServicesMonitoring.Web.csproj", "{44C8933B-20A3-4313-8939-2E39163D4802}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{82572700-6257-4BC5-8F53-56A321F82F78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{5403E743-E113-4625-9885-22FA1B61AE8A}"
+	ProjectSection(SolutionItems) = preProject
+		..\Documents\Properties\SharedAssemblyInfo.cs = ..\Documents\Properties\SharedAssemblyInfo.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +25,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5403E743-E113-4625-9885-22FA1B61AE8A} = {82572700-6257-4BC5-8F53-56A321F82F78}
 	EndGlobalSection
 EndGlobal

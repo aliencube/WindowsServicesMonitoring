@@ -1,7 +1,7 @@
 ﻿using System.Configuration;
 using Owin;
 
-namespace WindowsServicesMonitoring.Web
+namespace Aliencube.WindowsServicesMonitoring.Web
 {
     public static class ErrorConfig
     {
